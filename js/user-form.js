@@ -1,3 +1,4 @@
+/* global Pristine:readonly */
 import {showAlert, getRandomArrayElement} from './util.js';
 import {sendData} from './api.js';
 

@@ -818,3 +818,4 @@ export default function startGame (
 
   return game;
 }
+

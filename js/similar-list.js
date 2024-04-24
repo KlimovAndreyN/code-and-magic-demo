@@ -1,5 +1,5 @@
 const SIMILAR_WIZARD_COUNT = 4;
-const DefaultColor = {
+const Default = {
   COAT_COLOR: 'rgb(101, 137, 164)',
   EYES_COLOR: 'black',
 };
@@ -16,10 +16,10 @@ const getWizardRank = (wizard) => {
 
   let rank = 0;
 
-  if (wizard.colorCoat === (coatColorInput.value || DefaultColor.COAT_COLOR)) {
+  if (wizard.colorCoat === (coatColorInput.value || Default.COAT_COLOR)) {
     rank += 2;
   }
-  if (wizard.colorEyes === (eyesColorInput.value || DefaultColor.EYES_COLOR)) {
+  if (wizard.colorEyes === (eyesColorInput.value || Default.EYES_COLOR)) {
     rank += 1;
   }
 

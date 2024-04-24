@@ -4,7 +4,7 @@
   "description": "Учебный проект «Код и Магия»",
   "scripts": {
     "lint": "eslint js/",
-    "start": "browser-sync start --server --no-ui --files \"js/**/*.js\""
+    "start": "browser-sync start --server --listen localhost --no-ui --files \"js/**/*.js\""
   },
   "author": "htmlacademy",
   "devDependencies": {
